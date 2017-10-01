@@ -1,5 +1,5 @@
 ---
 layout: category
 
-category: Jaaa
+category: java
 ---
