@@ -1,5 +1,5 @@
 ---
 layout: category
 
-category: java
+category: Java
 ---
