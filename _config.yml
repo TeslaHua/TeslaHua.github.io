@@ -13,7 +13,7 @@ all_categories: [
 ["web", "Web前端相关","/posts/web.html"],
 ["database", "数据库相关","/posts/database.html"],
 ["embedded", "嵌入式设计相关","/posts/embedded.html"],
-["Linux", "Linux相关","/posts/Linux.html"],
+["Linux", "Linux相关","/posts/linux.html"],
 ["hardware", "硬件设计相关","/posts/hardware.html"],
 ["about", "关于","/posts/about.html"],
 ["read", "读书笔记","/posts/read.html"]
