@@ -1,1 +1,14 @@
-请修改_includes/comment.html添加评论代码。
+<div id="gitmentContainer"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+    owner: 'TeslaHua',
+    repo: 'https://github.com/TeslaHua/TeslaHua.github.io.git',
+    oauth: {
+        client_id: '0f1b792c389050e22d2e',
+        client_secret: 'a85a92835f8831731511a47e40dcc3855574d176',
+    },
+});
+gitment.render('gitmentContainer');
+</script>
