@@ -35,7 +35,7 @@ plugins:
 gitment:
   enable: true
   githubID: TeslaHua
-  repo: github.com/TeslaHua/TeslaHua.github.io
+  repo: TeslaHua.github.io
   ClientID: 0f1b792c389050e22d2e
   ClientSecret: a85a92835f8831731511a47e40dcc3855574d176
   lazy: false
