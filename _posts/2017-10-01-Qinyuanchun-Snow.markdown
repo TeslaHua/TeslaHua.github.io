@@ -1,6 +1,6 @@
 ---
 layout: post
-category: "web"
+category: "read"
 title:  "《沁园春·雪》"
 tags: [阅读,人生]
 ---
