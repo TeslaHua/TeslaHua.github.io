@@ -7,7 +7,7 @@ github: TeslaHua
 author: "王中华"
 email: wangzhonghua_cnu@163.com
 name: "王中华个人博客"
-domain: www.panxw.com
+domain: www.teslahua.com
 all_categories: [
 ["java", "Java后台相关","/posts/java.html"],
 ["web", "Web前端相关","/posts/web.html"],
