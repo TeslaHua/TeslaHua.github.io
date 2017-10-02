@@ -30,4 +30,6 @@ collections:
 plugins:
  - jekyll-paginate
 
+gitment: true
+
 
