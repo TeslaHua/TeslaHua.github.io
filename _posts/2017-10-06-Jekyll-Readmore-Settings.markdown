@@ -10,13 +10,13 @@ tags: [ReadMore,Jekyll,excerpt]
 
 （1）首先打开_config.yml文件，添加代码：excerpt_separator: "<\!-\- more -\->";
     
-（2）然后打开自己的index.html文件，添加代码：{\{ post.excerpt }}，代码段如下,转义反斜线‘ \ ’请忽略：
+（2）然后打开自己的index.html文件，添加代码：{\{ post.excerpt }}，代码段如下,**转义反斜线‘ \ ’请忽略**：
 
 	<hr>
-	{\{ post.excerpt }}   
-	<p><h3>
-	<a href="{{ post.url }}">ReadMore &raquo;</a>
-	</h3></p>
+	   {\{ post.excerpt }}   
+	   <p><h3>
+	   <a href="{{ post.url }}">ReadMore &raquo;</a>
+	   </h3></p>
 	<hr>
 
 <!-- more -->
@@ -41,7 +41,7 @@ tags: [ReadMore,Jekyll,excerpt]
 
 （2）然后在你的markdown博客里面在想要摘要截止的地方添加<\!-\- more -\->这句话，如上。
 
-（3）这种方法有一个缺点就是，在用jekyll serve本地更新时，会出现一个警告，转义反斜线‘ \ ’请忽略：
+（3）这种方法有一个缺点就是，在用jekyll serve本地更新时，会出现一个警告，**转义反斜线‘ \ ’请忽略**：
 
     Liquid Warning: Liquid syntax error (line 13): Expected id but found pipe
 	in "{\{ post.content ||split:'<!-- more -->' | first }}" in index.html
