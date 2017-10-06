@@ -9,7 +9,7 @@ tags: [Ajax,跨域,Chrome]
 >总是卡在请求文件那里，于是就在Chorme下简单调试了一下，发现一触发send button,就报错：
 Cross origin requests are only supported for protocol schemes: http, data, chrome, chrome-extension, https. 如下图所示：
 
->![Error](http://localhost:4000/images/error.png)
+>![Error](https://thumbnail0.baidupcs.com/thumbnail/c6dd6875f17eae05c74d4cd127809206?fid=559684340-250528-63401724978248&time=1507258800&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-AUvmzVLYzhWg1%2fVsu%2b6OOJRvKRo%3d&expires=8h&chkbd=0&chkv=0&dp-logid=6459013525520315830&dp-callid=0&size=c10000_u10000&quality=90&vuk=559684340&ft=image)
 
 >百度了一下：项目开发过程中，用到了Ajax异步请求。若将项目放在本地服务器中，通过localhost访
 问文件，不会报错。若直接通过file://访问文件就会报错。 
@@ -20,7 +20,7 @@ Cross origin requests are only supported for protocol schemes: http, data, chrom
 右键单击Chrome浏览器快捷方式，选择属性，修改目标路径，在后面加上：--allow-file-access-from-files,注意**--allow前面有一个空格哦**，不然操作会提示无效。如下图：
 
 
->![ChromeConfig](https://github.com/TeslaHua/TeslaHua.github.io/tree/master/images/ChromeConfig.png)
+>![ChromeConfig](https://thumbnail0.baidupcs.com/thumbnail/6636ae6048fa5534b16f11a79b075d88?fid=559684340-250528-296555807778460&time=1507258800&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-zCNkEb82UVAvtjMNWEoQWTzJjMs%3d&expires=8h&chkbd=0&chkv=0&dp-logid=6459013525520315830&dp-callid=0&size=c10000_u10000&quality=90&vuk=559684340&ft=image)
 
 
 >#### **这里注意两点：1.--allow前面有空格；2.如果设置的是桌面的快捷方式，那么任务栏的不可用**
@@ -28,14 +28,14 @@ Cross origin requests are only supported for protocol schemes: http, data, chrom
 >## 3.重新打开浏览器，加载网页文件
 >发现Ajax可以正常异步请求本地文件了，如下图：
 
->![right](https://github.com/TeslaHua/TeslaHua.github.io/tree/master/images/right.png)
+>![right](https://thumbnail0.baidupcs.com/thumbnail/66514e9422ddf5eee4237d65e6877494?fid=559684340-250528-1050432577709121&time=1507258800&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-LUrHBTEdvz%2bxxFbf8w%2fc%2bikw7zU%3d&expires=8h&chkbd=0&chkv=0&dp-logid=6459013525520315830&dp-callid=0&size=c10000_u10000&quality=90&vuk=559684340&ft=image)
 
 >## 4.什么是js跨域？
 >这里说的js跨域是指通过js在不同的域之间进行数据传输或通信，比如用ajax向一个不同的域请求数
 据，或者通过js获取页面中不同域的框架中(iframe)的数据。只要协议、域名、端口有任何一个不同，都被当作是不同的域.
 具体策略限制情况可看下表:
 
->![URL](https://github.com/TeslaHua/TeslaHua.github.io/tree/master/images/url.png)
+>![URL](https://thumbnail0.baidupcs.com/thumbnail/710313ae901924f6c81049dd547ab836?fid=559684340-250528-877089255275314&time=1507258800&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-bAxE0oIauysOgM9VS6v2BN3YAdk%3d&expires=8h&chkbd=0&chkv=0&dp-logid=6459013525520315830&dp-callid=0&size=c10000_u10000&quality=90&vuk=559684340&ft=image)
 
 >#### 关于Chrome浏览器下Ajax异步请求跨域的问题相关链接：
 ><http://blog.csdn.net/rywaqpf/article/details/44836965>
