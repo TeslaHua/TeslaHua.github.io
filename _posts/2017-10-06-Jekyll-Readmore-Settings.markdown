@@ -8,9 +8,9 @@ tags: [ReadMore,Jekyll,excerpt]
 
 基本功能就是博客首页只出现文章的摘要，点击ReadMore,可以阅读全文：
 
-（1）首先打开_config.yml文件，添加代码：excerpt_separator: "<\!-\- more -\->";
+（1）首先打开_config.yml文件，添加代码：excerpt_separator: "<\!-\- more -\->"；
     
-（2）然后打开自己的index.html文件，添加代码：{\{ post.excerpt }}，代码段如下,**转义反斜线‘ \ ’请忽略**：
+（2）然后打开自己的index.html文件，添加代码：{\{ post.excerpt }}，代码段如下，**转义反斜线‘ \ ’请忽略**：
 
 	<hr>
 	   {\{ post.excerpt }}   
@@ -37,7 +37,7 @@ tags: [ReadMore,Jekyll,excerpt]
 
 ### 2.另一种方法来实现ReadMore功能
 
-（1）打开index.html文件添加{\{ post.content\|\|split:'<\!-\- more -\->'\|first }},添加位置和官方添加位置一样。
+（1）打开index.html文件添加{\{ post.content\|\|split:'<\!-\- more -\->'\|first }}，添加位置和官方添加位置一样。
 
 （2）然后在你的markdown博客里面在想要摘要截止的地方添加<\!-\- more -\->这句话，如上。
 
