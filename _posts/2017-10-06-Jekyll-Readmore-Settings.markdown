@@ -15,7 +15,7 @@ tags: [ReadMore,Jekyll,excerpt]
 	<hr>
 	   {\{ post.excerpt }}   
 	   <p><h3>
-	   <a href="{{ post.url }}">ReadMore &raquo;</a>
+	   <a href="{\{ post.url }}">ReadMore &raquo;</a>
 	   </h3></p>
 	<hr>
 
