@@ -1,7 +1,7 @@
 ﻿markdown: kramdown
 highlighter: pygments
 permalink: /posts/:title.html
-excerpt_separator: "<!-- more -->"
+#excerpt_separator: "<!-- more -->"    在jekyll官方的语法中，在此处加上此句，然后在index.html文件中加上{{ post.excerpt }}此句即可
 
 github: TeslaHua
 author: "王中华"
