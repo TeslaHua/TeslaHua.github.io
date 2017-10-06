@@ -20,7 +20,7 @@ Cross origin requests are only supported for protocol schemes: http, data, chrom
 右键单击Chrome浏览器快捷方式，选择属性，修改目标路径，在后面加上：--allow-file-access-from-files,注意**--allow前面有一个空格哦**，不然操作会提示无效。如下图：
 
 
->![ChromeConfig](http://localhost:4000/images/ChromeConfig.png)
+>![ChromeConfig](https://github.com/TeslaHua/TeslaHua.github.io/tree/master/images/ChromeConfig.png)
 
 
 >#### **这里注意两点：1.--allow前面有空格；2.如果设置的是桌面的快捷方式，那么任务栏的不可用**
@@ -28,14 +28,14 @@ Cross origin requests are only supported for protocol schemes: http, data, chrom
 >## 3.重新打开浏览器，加载网页文件
 >发现Ajax可以正常异步请求本地文件了，如下图：
 
->![right](http://localhost:4000/images/right.png)
+>![right](https://github.com/TeslaHua/TeslaHua.github.io/tree/master/images/right.png)
 
 >## 4.什么是js跨域？
 >这里说的js跨域是指通过js在不同的域之间进行数据传输或通信，比如用ajax向一个不同的域请求数
 据，或者通过js获取页面中不同域的框架中(iframe)的数据。只要协议、域名、端口有任何一个不同，都被当作是不同的域.
 具体策略限制情况可看下表:
 
->![URL](http://localhost:4000/images/url.png)
+>![URL](https://github.com/TeslaHua/TeslaHua.github.io/tree/master/images/url.png)
 
 >#### 关于Chrome浏览器下Ajax异步请求跨域的问题相关链接：
 ><http://blog.csdn.net/rywaqpf/article/details/44836965>
