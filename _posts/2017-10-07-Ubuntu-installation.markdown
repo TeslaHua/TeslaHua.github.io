@@ -1,6 +1,6 @@
 ---
 layout: post
-category: "linux"
+category: "Linux"
 title:  "ubuntu16.04开机启动错误、服务管理程序以及显卡安装问题"
 tags: [ubuntu,NVIDIA,服务程序]
 ---
