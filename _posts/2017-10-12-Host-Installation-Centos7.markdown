@@ -128,6 +128,7 @@ tags: [CentOS7,UltraISO,磁盘分区]
    关于磁盘如何分区的问题，还可以参考以下的资料：
 
    <https://yq.aliyun.com/articles/68236>
+
    <http://www.360doc.com/content/15/0715/14/734073_485065070.shtml>
 
    关于各挂载点文件系统的选择，请参考下面链接：
