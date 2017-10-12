@@ -125,6 +125,11 @@ tags: [CentOS7,UltraISO,磁盘分区]
 
    ![fenqu](https://pcs.baidu.com/rest/2.0/pcs/thumbnail?method=generate&app_id=250528&path=%2FBlogImages%2Ffenqu.jpg&quality=90&size=c10000_u10000)
 
+   关于磁盘如何分区的问题，还可以参考以下的资料：
+
+   <https://yq.aliyun.com/articles/68236>
+   <http://www.360doc.com/content/15/0715/14/734073_485065070.shtml>
+
    4.选择安装源，见上上图，我选的是自动检测到安装介质（**虽然我点击验证的时候报错，但是好像并不影响**），然后我就直接选择开始安装。接下来就是进入到安装文件的界面，此时你就可以设置你的用户账号和root账号了，如下图所示,安装完成后你将进入一个全命令行无桌面的linux系统，然后登录就可以了：
 
    ![root](https://pcs.baidu.com/rest/2.0/pcs/thumbnail?method=generate&app_id=250528&path=%2FBlogImages%2Froot.jpg&quality=90&size=c10000_u10000)
