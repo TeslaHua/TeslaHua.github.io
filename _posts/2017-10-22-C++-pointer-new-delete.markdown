@@ -27,7 +27,7 @@ tags: [C++,指针,new,delete]
      ...  //use this memory
      delete ps;
   
-这将释放ps指向的内存，但不会删除指针ps本身。ps还可以重新指向另一个新分配的内存块。**new 和 delete一定要配对使用，否则会发生memory leak **
+这将释放ps指向的内存，但不会删除指针ps本身。ps还可以重新指向另一个新分配的内存块。** new 和 delete一定要配对使用，否则会发生memory leak **
 
   关于动态数组：
 
@@ -125,7 +125,7 @@ cinst只能防止修改pt指向的值，而不能防止修改pt的值。可以�
     const int * ps = &sloth;   //指向int常量的指针
     int * const finger = &sloth;  //一个int类型的指针常量
 
-中间的声明不允许使用ps修改sloth的值，但是允许ps指向另一个位置；最后的声明使得finger只能指向sloth,但允许finger修改sloth的值。**finger和*ps都是const,但是*finger和ps不是**
+中间的声明不允许使用ps修改sloth的值，但是允许ps指向另一个位置；最后的声明使得finger只能指向sloth,但允许finger修改sloth的值。** finger和* ps都是const,但是* finger和ps不是 **
 
 还可以声明指向const对象的const指针：
 
