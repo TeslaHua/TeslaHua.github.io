@@ -9,7 +9,7 @@ tags: [C++,顺序容器,定义,初始化]
 
   每个容器类型都定义一个默认构造函数。**除了array之外**，其他容器的默认构造函数都会创建一个指定类型的空容器，且都可以接受指定容器大小和元素初始值的参数。
 
-  ![definition](https://thumbnail0.baidupcs.com/thumbnail/9504bdc125dd5c34e4ecbc13b3727226?fid=559684340-250528-515843125575661&time=1509177600&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-xmdNv%2b15GIKpQpypiYRC90ecMN0%3d&expires=8h&chkbd=0&chkv=0&dp-logid=6973978742752122044&dp-callid=0&size=c10000_u10000&quality=90&vuk=559684340&ft=image)
+  ![definition](http://oyqo0q1a2.bkt.clouddn.com/definition.png)
 
 <!-- more -->
 
@@ -52,7 +52,7 @@ tags: [C++,顺序容器,定义,初始化]
 
 ### 2.容器类型成员
 
-  ![name](https://thumbnail0.baidupcs.com/thumbnail/79ce55ab7b186c988895bfcef800da06?fid=559684340-250528-361631656921207&time=1509181200&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-FhrL7dcXqZkFDtPzTDz5EFbudr8%3d&expires=8h&chkbd=0&chkv=0&dp-logid=6974474355707502417&dp-callid=0&size=c10000_u10000&quality=90&vuk=559684340&ft=image)
+  ![name](http://oyqo0q1a2.bkt.clouddn.com/name.png)
 
   为了使用这些类型，我们必须显式的使用其类名：
     //iter式通过list<string>定义的一个迭代器类型

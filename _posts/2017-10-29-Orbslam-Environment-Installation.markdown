@@ -26,11 +26,11 @@ tags: [Ubuntu,indigo,orbslam,opencv]
 
   1.首先打开自己的ubuntu,设置里面打开**软件与更新**，进行如下的设置，对于下载源我们可以选择清华的或者是aliyun的：
 
-  ![software](https://thumbnail10.baidupcs.com/thumbnail/ca2d36ca8df143deac683960ec7ba259?fid=559684340-250528-598478465881100&time=1509364800&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-tGZvl%2bc48eQpE56JsqK5imbnMaw%3d&expires=8h&chkbd=0&chkv=0&dp-logid=7023695115580176760&dp-callid=0&size=c10000_u10000&quality=90&vuk=559684340&ft=image)
+  ![software](http://oyqo0q1a2.bkt.clouddn.com/software.png)
 
   然后对于其他软件我们进行如下设置：
 
-  ![othersoftware](https://thumbnail10.baidupcs.com/thumbnail/aa4d64dcf98cfe16c29ee8dc3a859bd6?fid=559684340-250528-730747382047821&time=1509364800&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-wgreJhDP2kQOJvMFxl%2bCbIeUKhc%3d&expires=8h&chkbd=0&chkv=0&dp-logid=7023695115580176760&dp-callid=0&size=c10000_u10000&quality=90&vuk=559684340&ft=image)
+  ![othersoftware](http://oyqo0q1a2.bkt.clouddn.com/othersoftware.png)
 
   2.配置源
 
@@ -59,7 +59,7 @@ tags: [Ubuntu,indigo,orbslam,opencv]
 
   **这里出错的话就要去尝试国内的镜像源**，这里安装成功后会出现如下界面：
 
-  ![indigo](https://thumbnail10.baidupcs.com/thumbnail/d980848dd49e271b19dcdcf9ba6c5f9a?fid=559684340-250528-751301472269871&time=1509364800&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-SX59%2blXescOZ4Z18o8Uhdl33lqk%3d&expires=8h&chkbd=0&chkv=0&dp-logid=7023695115580176760&dp-callid=0&size=c10000_u10000&quality=90&vuk=559684340&ft=image)
+  ![indigo](http://oyqo0q1a2.bkt.clouddn.com/indigo.png)
 
   6.初始化rosdep
 
@@ -68,7 +68,7 @@ tags: [Ubuntu,indigo,orbslam,opencv]
 
   初始化成功后出现如下界面：
 
-  ![rosdep](https://thumbnail10.baidupcs.com/thumbnail/b3ff6d5423760056873abe1335ee05e6?fid=559684340-250528-29604135860282&time=1509364800&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-Yrw94x%2btFHuuRUuGWESpvrPxfWk%3d&expires=8h&chkbd=0&chkv=0&dp-logid=7023695115580176760&dp-callid=0&size=c10000_u10000&quality=90&vuk=559684340&ft=image)
+  ![rosdep](http://oyqo0q1a2.bkt.clouddn.com/rosdep.png)
 
   7.环境变量配置
 
@@ -83,7 +83,7 @@ tags: [Ubuntu,indigo,orbslam,opencv]
 
   安装成功后出现以下界面,至此ubuntu下的ROS indigo已经成功安装完成：
 
-   ![rosinstall](https://thumbnail10.baidupcs.com/thumbnail/bfc30696ac81bb59da4aa879b8578bf8?fid=559684340-250528-1063459942108080&time=1509364800&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-PkPppCxvOaQ0gpx8%2burUqK8WEAM%3d&expires=8h&chkbd=0&chkv=0&dp-logid=7023695115580176760&dp-callid=0&size=c10000_u10000&quality=90&vuk=559684340&ft=image)
+   ![rosinstall](http://oyqo0q1a2.bkt.clouddn.com/rosinstall.png)
 
   9.确认是否安装
 
@@ -172,6 +172,7 @@ tags: [Ubuntu,indigo,orbslam,opencv]
   2.开启新的终端，执行
 
     roscore    //启动ros服务
+
 
   3.开启新的终端，执行
 

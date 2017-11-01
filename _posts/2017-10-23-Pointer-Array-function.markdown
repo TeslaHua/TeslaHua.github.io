@@ -46,7 +46,7 @@ tags: [C++,指针,Array,Function]
 
 2. 数组指针：首先它是一个指针，它指向一个数组。在32 位系统下任何类型的指针永远是占4 个字节，至于它指向的数组占多少字节，不知道，具体要看数组大小。它是“指向数组的指针”的简称。
 
-![zhiarray](https://thumbnail0.baidupcs.com/thumbnail/0788f4b5e479bd13e3800f15aa1f3404?fid=559684340-250528-386625943065119&time=1508763600&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-ciynifOmuk6RE0f%2fwRgVsY4RvYU%3d&expires=8h&chkbd=0&chkv=0&dp-logid=6862850692714229811&dp-callid=0&size=c10000_u10000&quality=90&vuk=559684340&ft=image)
+![zhiarray](http://oyqo0q1a2.bkt.clouddn.com/zhizhen.png)
 
 ### 2.指针与函数
 
@@ -116,15 +116,15 @@ tags: [C++,指针,Array,Function]
 
   方法一：用类似数组的方法定义
 
-  ![zhizhenarray](https://thumbnail0.baidupcs.com/thumbnail/0f168729482b57b0ab2ce515b4ed098c?fid=559684340-250528-518543976172853&time=1508806800&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-BRZl98Lv50xZRfO9wgI31umTl0c%3d&expires=8h&chkbd=0&chkv=0&dp-logid=6874490540752771839&dp-callid=0&size=c10000_u10000&quality=90&vuk=559684340&ft=image)
+  ![zhizhenarray](http://oyqo0q1a2.bkt.clouddn.com/zhizhenarray.png)
 
-  ![example](https://thumbnail0.baidupcs.com/thumbnail/f458982431f3af82ff8b899376b52945?fid=559684340-250528-206969978796585&time=1508806800&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-zPDujrHYbkBhDsqbQMdXH1uNJrI%3d&expires=8h&chkbd=0&chkv=0&dp-logid=6874490540752771839&dp-callid=0&size=c10000_u10000&quality=90&vuk=559684340&ft=image)
+  ![example](http://oyqo0q1a2.bkt.clouddn.com/example.png)
 
   方法二：使用类型别名
 
   首先，使用 typedef 声明一个名为 arrf 的函数指针数组类型，再用此类型定义一个函数指针数组变量，并将它初始化。
 
-  ![typedef](https://thumbnail0.baidupcs.com/thumbnail/5e8fb4a17ee47c48947c7a74ceab6f41?fid=559684340-250528-885230910121442&time=1508806800&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-gvxdsrLafp7YEDlNlKui4ZedQks%3d&expires=8h&chkbd=0&chkv=0&dp-logid=6874490540752771839&dp-callid=0&size=c10000_u10000&quality=90&vuk=559684340&ft=image)
+  ![typedef](http://oyqo0q1a2.bkt.clouddn.com/typedef.png)
 
   
 

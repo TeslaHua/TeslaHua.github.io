@@ -48,7 +48,7 @@ tags: [C++,指针,new,delete]
 #### (1)数组与指针的关系（int型数组为例）
 
 
-![array](https://thumbnail0.baidupcs.com/thumbnail/6896e55fd39e2dc51939a70d8d556a06?fid=559684340-250528-248023959876054&time=1508677200&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-Nuczl6O6SRswELIp3Kb54fJA7l0%3d&expires=8h&chkbd=0&chkv=0&dp-logid=6839378555744992542&dp-callid=0&size=c10000_u10000&quality=90&vuk=559684340&ft=image)
+![array](http://oyqo0q1a2.bkt.clouddn.com/array.png)
 
 
 第二句相当于int型指针cp指向了数组的第一个元素，所以，打印出的cp是第一个元素的地址；&cp[0]与cp等价；&cp也仍然是个地址；\* cp通过解引用得到了数组的第一个元素；只要指针指向的是数组中的元素（或者数组中尾元素的下一位置），都可以执行下标运算,cp[0]等价于\*(cp+0),故为数组的第一个元素。
@@ -56,7 +56,7 @@ tags: [C++,指针,new,delete]
 #### (2)char型数组与指针的关系
 
 
-![char](https://thumbnail0.baidupcs.com/thumbnail/3b744ba7ee1ddd77b6a3e19f91a101ee?fid=559684340-250528-219211365400098&time=1508677200&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-1i11GmI7S5UQxuZvjfaVVjeGqt8%3d&expires=8h&chkbd=0&chkv=0&dp-logid=6839378555744992542&dp-callid=0&size=c10000_u10000&quality=90&vuk=559684340&ft=image)
+![char](http://oyqo0q1a2.bkt.clouddn.com/char.png)
 
 
 前面一段中，cp被定义为指向“Hello World”的char型指针，“Hello World”是string类型，显然与char型不相吻合，可认为编译器做了以下事情：在常量区分配4个字节，分别放上H,e....d,\0这些字符，然后把H的地址返回给cp。（字符串放在了常量区，是不可修改的，试图修改，运行异常。为了兼容才允许这样写，最好写const char *cp="Hello
@@ -66,7 +66,7 @@ tags: [C++,指针,new,delete]
 
 ### 3.指针与结构体
 
-![struct](https://thumbnail0.baidupcs.com/thumbnail/6e7e6c712fca6c3aad8c9e4edf2e41a5?fid=559684340-250528-635291331831831&time=1508677200&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-8nZfnU1BMAoR9Ou%2bL50TgwDaclA%3d&expires=8h&chkbd=0&chkv=0&dp-logid=6839604348861715603&dp-callid=0&size=c10000_u10000&quality=90&vuk=559684340&ft=image)
+![struct](http://oyqo0q1a2.bkt.clouddn.com/struct.png)
 
 另一种访问方法是：如果ps是指向结构体的指针，则\* ps就是被指向的结构体本身，因此（\* ps）即使一个结构体，所以可以通过(*ps).menber来访问该成员变量。
 
@@ -134,7 +134,7 @@ cinst只能防止修改pt指向的值，而不能防止修改pt的值。可以�
 
 这里stick只能指向trouble,而stick不能用来修改trouble的值。简言之，stick和*stick都是const.
 
-![const](https://thumbnail0.baidupcs.com/thumbnail/0b3717568edc1b851521ecb6cfa72c06?fid=559684340-250528-209157451399920&time=1508724000&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-pqfHQYNl95Ihxk%2bpXgDu49vVgGg%3d&expires=8h&chkbd=0&chkv=0&dp-logid=6851977592671006682&dp-callid=0&size=c10000_u10000&quality=90&vuk=559684340&ft=image)
+![const](http://oyqo0q1a2.bkt.clouddn.com/const.png)
 
 
 

@@ -26,7 +26,7 @@ tags: [C++,继承,作用域]
 
   尽管在bulk中确实有一个名为discount_policy的成员，但是该成员对于itemP确实不可见的。itemP的指针是Quote的指针，意味着对discount_policy的搜索将从Quote开始。又因为Quote不包含名为discount_policy的成员，所以我们无法通过Quote的对象、引用或者指针来调用discount_policy。
 
-  ![jicehng](https://thumbnail0.baidupcs.com/thumbnail/5247cbf8673ef076abdc97186f50025a?fid=559684340-250528-544839566799888&time=1509087600&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-Bb9Y06iGQlKENJPpuxz3T%2bz2Y0A%3d&expires=8h&chkbd=0&chkv=0&dp-logid=6949779929032645922&dp-callid=0&size=c10000_u10000&quality=90&vuk=559684340&ft=image)
+  ![jicehng](http://oyqo0q1a2.bkt.clouddn.com/jicheng.png)
 
 ### 2.名字查找先于类型检查
 

@@ -23,7 +23,7 @@ tags: [CentOS7,UltraISO,磁盘分区]
 
    进入BIOS，在这里不要选择UEFI BOOT下面的你的U盘那个启动项，**(否则自定义分区的时候会强制要求分一个/boot/efi的分区)**，选择那个USB Starage Device（USB启动），之后进入如下的界面：
 
-   ![open](https://pcs.baidu.com/rest/2.0/pcs/thumbnail?method=generate&app_id=250528&path=%2FBlogImages%2Fopen.jpg&quality=90&size=c10000_u10000)
+   ![open](http://oyqo0q1a2.bkt.clouddn.com/open.jpg)
 
    选择第一个，然后Enter，接下来一大串Warning，不用管。
    接下来需要确定你的USB启动盘符，分别输入以下命令：
@@ -34,11 +34,11 @@ tags: [CentOS7,UltraISO,磁盘分区]
 
    之后会出现下图，然后就可以确定自己的盘符了，这个盘符接下来要用，然后reboot重启：
 
-   ![sdb4](https://pcs.baidu.com/rest/2.0/pcs/thumbnail?method=generate&app_id=250528&path=%2FBlogImages%2Fsdb4.jpg&quality=90&size=c10000_u10000)
+   ![sdb4](http://oyqo0q1a2.bkt.clouddn.com/sdb4.jpg)
 
    出现界面后，还是选择**Install CentOS7**这个开机启动项，（不过这次不是按Enter键而是选择按键盘上的e键），**（还有一种方法，就是看到右边的大于号，选择它，也是同样的更改自己的盘符，之后按下Enter键进入安装界面）**。前一种方法会出现以下的界面，然后输入自己的USB启动盘符之后同时按下“ Ctrl+x ”，就会进入安装界面了。
 
-   ![panfu](https://pcs.baidu.com/rest/2.0/pcs/thumbnail?method=generate&app_id=250528&path=%2FBlogImages%2Fpanfu.jpg&quality=90&size=c10000_u10000)
+   ![panfu](http://oyqo0q1a2.bkt.clouddn.com/panfu.jpg)
 
    关于安装前的配置，可以继续浏览以下资料：
 
@@ -48,11 +48,11 @@ tags: [CentOS7,UltraISO,磁盘分区]
 
    1.选择相应的语言，继续：
 
-   ![language](https://pcs.baidu.com/rest/2.0/pcs/thumbnail?method=generate&app_id=250528&path=%2FBlogImages%2Flanguage.jpg&quality=90&size=c10000_u10000)
+   ![language](http://oyqo0q1a2.bkt.clouddn.com/language.jpg)
 
    2.如图所示，其中的**软件选择**我选择默认的最小安装，这个安装只提供运行CentOS的基本软件包，最小安装为单一目的的服务器提供需要，并可在这样的安装中最大化性能和安全性。**（主要是我想自己手动安装和配置一些东西）** ，网络配置和主机名这一块我将在下一篇博客里面谈，在这里我们也暂不进行操作，其他的也暂时忽略。
 
-   ![small](https://pcs.baidu.com/rest/2.0/pcs/thumbnail?method=generate&app_id=250528&path=%2FBlogImages%2Fsmall.jpg&quality=90&size=c10000_u10000)
+   ![small](http://oyqo0q1a2.bkt.clouddn.com/small.jpg)
 
    3.我们直接进行系统分区，选择上图的**安装位置**选项，然后选择自己的硬盘（就是空间很大的那个，如果显示硬盘的空闲空间很小的话就是你的硬盘**没有格式化或没有删除分区**）
 
@@ -123,7 +123,7 @@ tags: [CentOS7,UltraISO,磁盘分区]
 
    分区完成了，如下图所示：
 
-   ![fenqu](https://pcs.baidu.com/rest/2.0/pcs/thumbnail?method=generate&app_id=250528&path=%2FBlogImages%2Ffenqu.jpg&quality=90&size=c10000_u10000)
+   ![fenqu](http://oyqo0q1a2.bkt.clouddn.com/fenqu.jpg)
 
    关于磁盘如何分区的问题，还可以参考以下的资料：
 
@@ -137,7 +137,7 @@ tags: [CentOS7,UltraISO,磁盘分区]
 
    4.选择安装源，见上上图，我选的是自动检测到安装介质（**虽然我点击验证的时候报错，但是好像并不影响**），然后我就直接选择开始安装。接下来就是进入到安装文件的界面，此时你就可以设置你的用户账号和root账号了，如下图所示,安装完成后你将进入一个全命令行无桌面的linux系统，然后登录就可以了：
 
-   ![root](https://pcs.baidu.com/rest/2.0/pcs/thumbnail?method=generate&app_id=250528&path=%2FBlogImages%2Froot.jpg&quality=90&size=c10000_u10000)
+   ![root](http://oyqo0q1a2.bkt.clouddn.com/root.jpg)
 
 
 

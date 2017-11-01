@@ -16,7 +16,7 @@ tags: [C++,assign,swap]
 
 <!-- more -->
 
-  ![assign](https://thumbnail0.baidupcs.com/thumbnail/ac38c1fa2a7e62c7aad3736fe4c57d95?fid=559684340-250528-874196515550795&time=1509184800&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-PKciD57bqQKJZkd%2fQmrSY%2bYhpJM%3d&expires=8h&chkbd=0&chkv=0&dp-logid=6975959803515625052&dp-callid=0&size=c10000_u10000&quality=90&vuk=559684340&ft=image)
+  ![assign](http://oyqo0q1a2.bkt.clouddn.com/assign.png)
 
 #### (1)使用assign(仅顺序容器)
 
@@ -44,7 +44,7 @@ tags: [C++,assign,swap]
 
   之后svec1将包含24个string元素，svec2将包含10个string元素。**(除了array之外，因为array会真正交换它们的元素)**交换两个容器内容的操作会很快，因为元素本身并没有交换，swap只是交换了容器的数据结构。
 
-  ![swap](https://thumbnail0.baidupcs.com/thumbnail/203e96fa7ba20476936224d91d077ebe?fid=559684340-250528-615588829145007&time=1509188400&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-bDHp6klNzwMcr%2fEoVmu5HYMP09g%3d&expires=8h&chkbd=0&chkv=0&dp-logid=6976829038852594317&dp-callid=0&size=c10000_u10000&quality=90&vuk=559684340&ft=image)
+  ![swap](http://oyqo0q1a2.bkt.clouddn.com/swap.png)
 
 
 

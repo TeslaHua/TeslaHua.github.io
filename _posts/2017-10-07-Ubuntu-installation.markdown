@@ -6,7 +6,7 @@ tags: [ubuntu,NVIDIA,服务程序]
 ---
 ### 1.在虚拟机上安装完ubuntu之后的启动问题,全部的问题如下图：
 
-   ![allerror](https://pcs.baidu.com/rest/2.0/pcs/thumbnail?method=generate&app_id=250528&path=%2FBlogImages%2Fallerror.png&quality=90&size=c10000_u10000)
+   ![allerror](http://oyqo0q1a2.bkt.clouddn.com/allerror.png)
 
 <!-- more -->
 #### （1）问题1：Assuming drive cache:write through
@@ -23,6 +23,7 @@ tags: [ubuntu,NVIDIA,服务程序]
 #### （3）问题3：/dev/sda1：Clearing orphaned inode <some inode number>
 
    下面出来的这几行信息可能就是和recovering journal有关而打印出来的日志信息了，但是我直接重启的话就不会出现recovering journal和它下面的这些输出信息，所以怀疑是开机的引导程序或者硬件检测这里除了问题。
+
 #### （4）问题4：/dev/sda1: clean, 220240/30269440 file, 2971359/121076736 blocks
 
    这好像也不是一个Error，只是自检到你的硬盘驱动器没有损坏-这是Ubuntu在检查每个启动项。
@@ -42,7 +43,7 @@ tags: [ubuntu,NVIDIA,服务程序]
    3.**:wq保存退出，reboot看效果。**
 #### （6）问题6：由于在vi编辑blacklist.conf文件时错输入了一些东西，导致重启出错如下提示：
 
-   ![libkmod](https://pcs.baidu.com/rest/2.0/pcs/thumbnail?method=generate&app_id=250528&path=%2FBlogImages%2Flibkmod.png&quality=90&size=c10000_u10000)
+   ![libkmod](http://oyqo0q1a2.bkt.clouddn.com/libkmod.png)
 
    最难过的是当你发现即使你删除了误输入的东西，你启动仍然还是有一样的提示，经过查询，涉及到init ram filesystem（它是一个cpio格式的内存文件系统），就是当你修改了文件之后，并不能马上生效，需要更新一下这个文件系统，在终端输入如下指令：
    
@@ -98,7 +99,7 @@ tags: [ubuntu,NVIDIA,服务程序]
     
    效果如下图，其中“ X ”符号代表开机会启动的服务，点击X号就会取消该服务，然后按“ q ”键退出。
 
-   ![sysv-rc-conf](https://pcs.baidu.com/rest/2.0/pcs/thumbnail?method=generate&app_id=250528&path=%2FBlogImages%2Fsysv-rc-conf.png&quality=90&size=c10000_u10000)
+   ![sysv-rc-conf](http://oyqo0q1a2.bkt.clouddn.com/sysv-rc-conf.png)
 
 #### （4）常见的系统服务信息
 

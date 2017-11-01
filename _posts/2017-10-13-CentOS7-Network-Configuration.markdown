@@ -15,11 +15,11 @@ tags: [CentOS7,静态IP,网络配置]
 
    进入/etc/sysconfig/network-scripts/目录，使用ls命令查看，里面应该有一个**ifcfg-eXXXX（每个电脑的XXX可能不一样，我的是em1,也有的是eno*****后面一串数字的）**的，然后用vi打开它,里面可能是如下图所示，然后将ONBOOT从no改为yes(**启动系统时激活网卡**)。
 
-   ![yes](https://thumbnail0.baidupcs.com/thumbnail/91146d01ffeb9fba84a53c49728c87af?fid=559684340-250528-1006652403511289&time=1507856400&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-ihPHxlmtG1BLS97wEXEXuKWWRq4%3d&expires=8h&chkbd=0&chkv=0&dp-logid=6619392610930247244&dp-callid=0&size=c10000_u10000&quality=90&vuk=559684340&ft=image)
+   ![yes](http://oyqo0q1a2.bkt.clouddn.com/yes.jpg)
 
    此时BOOTPROTO仍然是dhcp动态分配IP地址，然后service network restart 重启网络服务，此时再输入命令**ip addr**，我们可以看到下图显示已经分配了IP地址给这台机器，此时你在尝试ping www.baidu.com 或许就可以通了哦：
 
-   ![ipaddr](https://pcs.baidu.com/rest/2.0/pcs/thumbnail?method=generate&app_id=250528&path=%2FBlogImages%2Fipaddr.jpg&quality=90&size=c10000_u10000)
+   ![ipaddr](http://oyqo0q1a2.bkt.clouddn.com/ipaddr.jpg)
 
 #### (2). static静态IP的配置
 
@@ -39,12 +39,12 @@ tags: [CentOS7,静态IP,网络配置]
 
    设置完之后我们可以查看一下NetworkManager.service的状态和network.service的状态，如下图所示，里面的分析不知道对不对，大神勿喷哦：
 
-   ![status](https://thumbnail0.baidupcs.com/thumbnail/5284afb442c0ada3a34b5459526b627c?fid=559684340-250528-501780878249465&time=1507874400&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-6pSxLnlU35aFwiaaq%2bkzO0KcXLY%3d&expires=8h&chkbd=0&chkv=0&dp-logid=6624221273830623004&dp-callid=0&size=c10000_u10000&quality=90&vuk=559684340&ft=image)
+   ![status](http://oyqo0q1a2.bkt.clouddn.com/status.jpg)
 
 
    手机拍的，比较粗略，抱歉。
 
-   ![status1](https://thumbnail0.baidupcs.com/thumbnail/c94f048c84466acbbc3a1418c135a2b8?fid=559684340-250528-246095078947728&time=1507874400&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-M6GclQ4dA6yyS4bNLoulbpPiBDw%3d&expires=8h&chkbd=0&chkv=0&dp-logid=6624221273830623004&dp-callid=0&size=c10000_u10000&quality=90&vuk=559684340&ft=image)
+   ![status1](http://oyqo0q1a2.bkt.clouddn.com/status1.jpg)
 
    鸟哥的私房菜里面讲解的关于系统服务的资料可以看下面的：
 
@@ -70,7 +70,7 @@ tags: [CentOS7,静态IP,网络配置]
 
     127.0.0.1   localhost  teslahua   #修改localhost.localdomain为teslahua
 
-   ![gateway](https://pcs.baidu.com/rest/2.0/pcs/thumbnail?method=generate&app_id=250528&path=%2FBlogImages%2Fgateway.jpg&quality=90&size=c10000_u10000)
+   ![gateway](http://oyqo0q1a2.bkt.clouddn.com/gateway.jpg)
 
    3.开始配置静态IP 
 
@@ -83,7 +83,7 @@ tags: [CentOS7,静态IP,网络配置]
     DNS2=8.8.8.8           #设置备DNS
 
 
-   ![ifcfg-em1](https://pcs.baidu.com/rest/2.0/pcs/thumbnail?method=generate&app_id=250528&path=%2FBlogImages%2Fifcfg-em1.jpg&quality=90&size=c10000_u10000)
+   ![ifcfg-em1](http://oyqo0q1a2.bkt.clouddn.com/ifcfg-em1.jpg)
 
    **提示：  一定要重启一下network服务哦： **
 
@@ -138,7 +138,7 @@ tags: [CentOS7,静态IP,网络配置]
 
    哈哈，所以我就编辑了一下，把我的主机的MAC地址绑定到了这个IP地址。如下所示，所以经过差不多一天的时间，终于成功配置完成了，经测试，已经可以成功的ping通内网和外网了。
 
-   ![route](https://thumbnail0.baidupcs.com/thumbnail/134bbb1a0c5fb666246628f03c797841?fid=559684340-250528-1119019000027602&time=1507881600&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-vMTo1faZeBPY3LkhCMAJYipz%2bcA%3d&expires=8h&chkbd=0&chkv=0&dp-logid=6625519485950431391&dp-callid=0&size=c10000_u10000&quality=90&vuk=559684340&ft=image)
+   ![route](http://oyqo0q1a2.bkt.clouddn.com/route.png)
 
    关于路由器的有关资料请参考以下链接：
 

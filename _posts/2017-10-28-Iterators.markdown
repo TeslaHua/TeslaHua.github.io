@@ -9,7 +9,7 @@ tags: [C++,顺序容器,Iterators]
 
   下面列出的是所有标准容器的迭代器拥有的运算符,其中**forward_list迭代器不支持递减运算符(--)**：
 
-  ![yunsuan](https://thumbnail0.baidupcs.com/thumbnail/caf4531a918ea5abdba4994d2cdf5bb9?fid=559684340-250528-296047274528135&time=1509181200&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-V9Edv%2bufu0k6Nwz01FncFxAKSqo%3d&expires=8h&chkbd=0&chkv=0&dp-logid=6975148613293563545&dp-callid=0&size=c10000_u10000&quality=90&vuk=559684340&ft=image)
+  ![yunsuan](http://oyqo0q1a2.bkt.clouddn.com/yunsuan.png)
 
 <!-- more -->
 
@@ -62,7 +62,7 @@ tags: [C++,顺序容器,Iterators]
 
 ### 5.vector和string、deque和array迭代器特有的运算符
 
-  ![diedai](https://thumbnail0.baidupcs.com/thumbnail/1736941bdd807ddfa3bbb06dda91b89d?fid=559684340-250528-369314659692275&time=1509181200&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-2f%2f82cIZ3oUfEjbGd9pbNHHQ2dM%3d&expires=8h&chkbd=0&chkv=0&dp-logid=6975148613293563545&dp-callid=0&size=c10000_u10000&quality=90&vuk=559684340&ft=image)
+  ![diedai](http://oyqo0q1a2.bkt.clouddn.com/diedai.png)
 
    
  
