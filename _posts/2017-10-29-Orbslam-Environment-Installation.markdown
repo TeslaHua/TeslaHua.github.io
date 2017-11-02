@@ -1,7 +1,7 @@
 ---
 layout: post
 category: "slam"
-title:  "Ubuntu14.04搭建ORBSLAM的编译、运行环境"
+title:  "Ubuntu14.04搭建ORBSLAM的运行环境"
 tags: [Ubuntu,indigo,orbslam,opencv]
 ---
 

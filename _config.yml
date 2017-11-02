@@ -31,3 +31,8 @@ collections:
 
 plugins:
  - jekyll-paginate
+
+leancloud:
+  enable: true
+  app_id: JnilGriJUDBPINlbbePyDHzO-gzGzoHsz
+  app_key: B7CgcOstOD4Owwwu1YiuDm4j
