@@ -32,3 +32,7 @@ footer {
   font-size: $small-font-size;
   color: blue;
 }
+.search{
+  width: 260px;
+  padding-top: 9px;
+}
