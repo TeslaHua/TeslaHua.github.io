@@ -50,7 +50,7 @@ tags: [catkin_make,Ubuntu,ORBSLAM2,Mono]
 
 主要是使用的张正友的摄像头标定，具体方法可参考以下链接：
 
- [相机标定点我](http://blog.csdn.net/dcrmg/article/details/52929669)
+ [嘿嘿，相机标定点我](http://blog.csdn.net/dcrmg/article/details/52929669)
 
 注意：角点数最好不要选相同的。
 
@@ -108,7 +108,7 @@ tags: [catkin_make,Ubuntu,ORBSLAM2,Mono]
 
 ### 7.参考链接
 
-[我是参考资料](http://blog.csdn.net/goding_learning/article/details/52950993)
+[哈哈，我是参考资料](http://blog.csdn.net/goding_learning/article/details/52950993)
 
 
 
