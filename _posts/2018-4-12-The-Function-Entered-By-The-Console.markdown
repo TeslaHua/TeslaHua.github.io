@@ -68,7 +68,7 @@ tags: [C++,输入,控制台]
 	string str;
 	std::cin>>str;
 
-   如果输入是“      hello   world”，str中存入的字符串也只是“hello”.
+	如果输入是“      hello   world”，str中存入的字符串也只是“hello”.
 
    (2) getline()函数
 
@@ -119,7 +119,7 @@ tags: [C++,输入,控制台]
   **说明：**
 	getline()其实把换行符也读进去了，只不过不把换行符保存到那个string对象中。同理，结束符delim也不会被写入到string对象中。getline()会读取换行符之前的所有的空白符，包括开头的空白符，如：
 
-   如果输入是“    hello    world    ”，str中存入的字符串也只是“    hello    world   ”.
+	如果输入是“    hello    world    ”，str中存入的字符串也只是“    hello    world   ”.
 
 
 
